@@ -1,5 +1,4 @@
 # AWS SES
-=============================
 
 This module can be used to deploy an SES domain for sending emails.
 
