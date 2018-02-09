@@ -19,7 +19,7 @@ provider "aws" {
 module "ses" {
   source = "github.com/fierceventures/terraform-ses"
   domain = "example.com"
-  provider = {
+  providers = {
     aws = "aws.us-east-1"
   }
 }
